@@ -1,0 +1,28 @@
+# Parcelas supera los 100 MB: se distribuye como asset de un Release (ver README)
+02_datos_originales/Parcelas.*
+03_resultados/vectoriales/parcelas_area.*
+03_resultados/vectoriales/parcelas_grandes.*
+*.zip
+
+# Proyectos ArcMap (dependen de rutas locales y de las parcelas)
+*.mxd
+
+# Archivos de bloqueo, índices espaciales y temporales
+*.lock
+*.sbn
+*.sbx
+*.shp.xml
+raster/_dep_tmp.*
+*.tmp
+~$*
+
+# Sistema y editores
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.kiro/
+
+# Python
+__pycache__/
+*.pyc

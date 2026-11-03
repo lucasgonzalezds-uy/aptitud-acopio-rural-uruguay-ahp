@@ -1,0 +1,12 @@
+=== EVIDENCIA: script Punto 6 ejecutado en ArcMap / ArcGIS 10.8 ===
+Python: 2.7.16
+arcpy: 10.8
+Raster de entrada: 03_resultados\raster\aptitud_rural.tif
+Forma del raster: (1101, 983)  dtype: float32
+[A - tal cual la letra] Cantidad de celdas: 1082283
+[A - tal cual la letra] Percentil 95: 7.2421
+[B - filtro corregido] Cantidad de celdas: 696517
+[B - filtro corregido] Percentil 95: 7.5204
+[B - filtro corregido] Min: 1.3399  Max: 9.5153  Media: 5.0649
+Celdas >= p95 corregido: 34827  (esperado 34827)
+=== FIN ===

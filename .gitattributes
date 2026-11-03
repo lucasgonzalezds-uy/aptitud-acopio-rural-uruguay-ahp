@@ -1,0 +1,7 @@
+# Archivos geoespaciales e imágenes: tratarlos siempre como binarios
+*.shp binary
+*.shx binary
+*.dbf binary
+*.tif binary
+*.png binary
+*.pdf binary
